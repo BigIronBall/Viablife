@@ -358,6 +358,20 @@
     background-size: 100%;
 }
 
+.bh{
+   background:url(../images/DNA.jpg) no-repeat 50% 20% !important;
+    padding-top:200px !important;
+    padding-bottom:200px !important;
+    background-size: 100%; 
+}
+
+.gbh{
+    background:url(../images/gbh.jpg) no-repeat 50% 20% !important;
+    padding-top:200px !important;
+    padding-bottom:200px !important;
+    background-size: 100%; 
+}
+
 /*.header-spliter{
     height: 128px;
 }*/
