@@ -341,9 +341,9 @@
 }
 
 
-.jumbotron .container{
+/*.jumbotron .container{
     text-shadow: 5px 5px 5px #000;
-}
+}*/
 
 .leader{
     background:url(../images/CHESS-PIECES_LEADERSHIP.jpg) no-repeat 70% 50% !important;
@@ -379,4 +379,59 @@
 .markdown-body h2{
     color:#00b050;
     font-family: "Microsoft YaHei";
+}
+
+.lb_wrap {
+    float: none;
+    width: 100%;
+    height: 509px;
+}
+
+.lb_wrap li {
+    display: none;
+    width: 100%;
+    height: 509px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    list-style: none;
+}
+
+.lbanner {
+    width: 100%;
+    height: 509px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lbanner .dot {
+    position: absolute;
+    height: 10px;
+    bottom: 20px;
+    left: 0;
+    list-style: none;
+}
+
+.lbanner .dot li {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 10;
+    /*background: url("http://www.supor.com.cn/Content/css/../img/lj_bbtn.png") no-repeat;*/
+    background-color:#fff;
+    border-radius: 50%;
+    float: left;
+}
+
+.lb_wrap li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.lbanner .dot li.active {
+    /*background: url("http://www.supor.com.cn/Content/css/../img/lj_bbtn.png") no-repeat 0 -10px;*/
+    background:#009f44;
 }
