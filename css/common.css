@@ -204,7 +204,8 @@
     padding: 0;
     width: 150%;
     left: -21px;
-    top: 48px;
+    /*top: 48px;*/
+    top: -348px;
     padding-top: 20px;
     opacity: 0;
     transition: margin .15s, opacity .15s;
@@ -249,6 +250,7 @@
 
 .site-header-nav>ul>li:hover ul {
     opacity: 1;
+    top:48px;
 }
 
 
@@ -429,6 +431,11 @@
     background-size: 100%;
 }
 
+.socail-banner{
+    background: url(../images/social-banner.jpg) no-repeat top center;
+    margin-top: 88px;
+    height: 337px;
+}
 
 /*.header-spliter{
     height: 128px;
@@ -542,7 +549,8 @@
 }
 
 .p-m {
-    min-height: 300px;
+    min-height: 330px;
+    margin-bottom: 20px;
 }
 
 .p-b img,
@@ -566,6 +574,11 @@
 
 .row{
     margin-bottom:30px;
+}
+
+.bg-light-gray{
+    background-color:#f8f8f8;
+    min-width: 1200px;
 }
 
 .biological-products {
@@ -601,3 +614,76 @@
 }
 
 .intro .detail {}
+
+/********社会责任********/
+.socail-img, .img-left,.img-right{
+    width:878px;
+    height: 490px;
+    display: inline-block;
+ /*   box-shadow: 1px 1px 20px #b1c1b2;*/
+    box-shadow: 1px 1px 20px #b1c1b2;
+    margin-top: 58px;
+}
+
+.socail-img.img-left{
+    background:url(../images/social1.jpg) no-repeat top center;
+    background-size: 100%;
+}
+
+.socail-img.img-right{
+    background:url(../images/bio-tecnologia.jpg) no-repeat top center;
+    background-size: 100%;
+    margin-left: 293px;
+}
+
+/*.img-left img,.img-right.img{
+    width:100%;
+    height: 100%;
+
+}*/
+
+.hexagon{
+    display: inline-block;
+    width:310px;
+    height: 600px;
+    border:4px solid #009f44;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    z-index: -2;
+}
+
+.hexagon.left{
+    right: auto;
+    left:70px;
+}
+
+.social-part{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1170px !important;
+}
+
+.social-part .row{
+    position: relative;
+}
+
+.social-part .row .content{
+    position: absolute;
+    background:#fff;
+    width:293px;
+    box-shadow: 6px 1px 19px #999;
+    right: 0;
+    padding: 30px;
+    top: 152px;
+    z-index: -1;
+}
+
+.social-part .row .content.left{
+    left:0;
+    right: auto;
+}
+
+.social-part .row .content h2{
+    color:#009f44;
+}
