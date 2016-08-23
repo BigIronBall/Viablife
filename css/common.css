@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/** Header **/
+.site-header{
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    position: fixed;
+    /*margin: 40px 0 30px 0;*/
+    margin: 0 0 30px 0;
+    top: 0;
+    left: 0 !important;
+    right: 0;
+    z-index: 103;
+
+    color: #000;
+    background: #fff;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.site-header #site-header-brand {
+    color: #2e2e2e;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.site-header a {
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #4183c4;
+}
+
+#site-header-brand, #site-header-brand .octicon {
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.site-header-nav{
+    float:right;
+    /*margin-bottom: -20px;*/
+}
+.site-header-nav ul{
+    list-style: none;
+}
+.site-header-nav>ul>li{
+    margin-left: 1.25rem;
+    float: left;
+    position: relative;
+}
+
+.site-header-nav ul li:first-child{
+    margin-left: 0;
+}
+
+.site-header-nav-item {
+    color: #000;
+    display:inline-block;
+    padding:10px 15px;
+    margin-left:1.25rem;
+    font-size: 20px;
+}
+
+.site-header-nav-item:first-child{
+    margin-left: 0;
+}
+
+/******* Scroll Start *******/
+.site-header {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.site-header.site-header-nav-scrolled {
+    margin: 0;
+    /*background-color: white;*/
+    background: #009f44;
+    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}
+/******* Scroll End *******/
+
+/** Jumbotron **/
+.jumbotron {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.jumbotron a {
+    color: #fff;
+    text-decoration: none;
+}
+.jumbotron #jumbotron-meta-info {
+    margin-top: 20px;;
+}
+
+.jumbotron .meta-info {
+    font-size: 20px;
+    margin-right: 15px
+}
+
+.jumbotron.meta-info, .jumbotron .meta-info .octicon {
+    font-size: 18px;
+}
+
+/** Footer **/
+.site-footer{
+    position:relative;
+    margin-top:40px;
+    padding:40px 0;
+    font-size:12px;
+    line-height:1.5;
+    color:#777;
+    border-top:2px solid #eee
+}
+
+.site-footer .octicon-mark-github {
+    position: absolute;
+    left: 50%;
+    color: #ccc;
+}
+
+.site-footer .octicon-mark-github:hover {
+    color:#bbb;
+}
+
+/** Post List **/
+.post-list-item {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list-title a {
+    text-decoration: none;
+}
+
+.post-list-description {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.post-list-meta {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #888;
+}
+
+.post-list-meta, .post-list-meta.octicon {
+    font-size: 18px;
+}
+
+.geopattern {
+    background-size: contain; /* To fix strange behavior when zoom in/out */
+}
+
+.sidebar-title {
+    text-align: center;
+}
+
+.drop {
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    width: 150%;
+    left: -21px;
+    top: 48px;
+    padding-top: 20px;
+    opacity: 0;
+    transition: margin .15s, opacity .15s;
+    /*box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);*/
+}
+
+.drop li{
+    text-align: center;
+    font-size: 16px;
+    /*background-color:#009f44;  */
+    background-color:#009f44;  
+}
+
+/*.drop>div{
+    -webkit-transform: translate(0, -100%);
+      -moz-transform: translate(0, -100%);
+      -ms-transform: translate(0, -100%);
+      transform: translate(0, -100%);
+      -webkit-transition: all 0.5s 0.1s;
+      -moz-transition: all 0.5s 0.1s;
+      -ms-transition: all 0.5s 0.1s;
+      transition: all 0.5s 0.1s;
+      position: relative;
+      
+}*/
+
+.drop li{
+    transition: background .2s;
+}
+
+.drop li:hover{
+    /*background-color:rgba(0,0,0,0.1);*/
+    background:#008f3d;
+}
+
+.drop li>a{
+    padding:15px 10px;
+    display: block;
+    color:#fff;
+}
+.site-header-nav>ul>li:hover ul{
+    opacity: 1;
+}
+/*.site-header-nav>ul>li:hover ul div{
+    -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}*/
+/*.site-header-nav>ul>li:hover ul{
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}*/
+
+
+/**************搜索样式**********/
+
+.site-header .glyphicon-search{
+    font-size: 20px;
+    top:15px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.search-box{
+    float:right;
+    opacity: 0;
+}
+
+.search-box *{
+    user-select: none;
+   -o-user-select:none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+.search-box input[type=text]{
+    user-select:text;
+}
+
+.search-box .glyphicon-search{
+    top:3px;
+}
+
+.search-box input[type=text]{
+    border:none;
+    background:#009f44;
+    outline: none;
+    color:#fff;
+    font-size: 20px;
+    width:400px;
+    /*padding:7px 0 8px 0;*/
+    padding:10px 0 10px 0;
+}
+
+.search-box .glyphicon-remove{
+    font-size: 20px;
+    top:3px;
+    /*left: 266px;*/
+    right: -10px;
+    cursor: pointer;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #ddd; 
+} 
+:-ms-input-placeholder {
+    color:#ddd;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    color: #ddd; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+    color: #ddd; 
+} 
+
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.fadein{
+    animation: fadein .5s; 
+    display: none;
+}
+
+.fadeout{
+    animation: fadeout .5s;
+    display: block;
+    opacity: 1;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.jumbotron .container{
+    text-shadow: 5px 5px 5px #000;
+}
+
+.leader{
+    background:url(../images/CHESS-PIECES_LEADERSHIP.jpg) no-repeat 70% 50% !important;
+    padding-top:200px !important;
+    padding-bottom:200px !important;
+}
+
+.team{
+    background:url(../images/Biotech.jpg) no-repeat 50% 20% !important;
+    padding-top:200px !important;
+    padding-bottom:200px !important;
+    background-size: 100%;
+}
+
+/*.header-spliter{
+    height: 128px;
+}*/
+
+.markdown-body h2{
+    color:#00b050;
+    font-family: "Microsoft YaHei";
+}
