@@ -1,11 +1,9 @@
 /** Only for index.html **/
 
-.site-header{
+/*.site-header{
     color: #fff;
-    /*background: #4183c4;*/
-    background: #009f44;
-   /* background:#39b49b;*/
-}
+    background: #00a14a;
+}*/
 
 .site-header #site-header-brand {
     color: #fff;
@@ -22,9 +20,9 @@
 
 .jumbotron {
     /*background: #4183c4;*/
-    /*background: #009f44;*/
+    /*background: #00a14a;*/
     background: #e7e7eb;
-    color:#009f44;
+    color:#00a14a;
     /*color:#74bd8f;*/
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -52,10 +50,4 @@
 .hvr-underline-from-center:before{
 	background:#fff;
 }
-
-/*.banner-cover{
-	width:100%;
-	height: 100%;
-	background-color:rgba(255,255,255,0.1);
-}*/
 
