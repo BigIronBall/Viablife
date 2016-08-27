@@ -919,7 +919,7 @@ img {
 .health-content h1.title{
     color:#4b6e2d;
 }
-.health-content .row {
+.health-content .row.detail {
     background-color: #4b6e2d;
 }
 
@@ -1011,8 +1011,8 @@ img {
     height: 100%;
     position: absolute;
     left: 0;
-    bottom:-100%;
-    /*bottom: -100%;*/
+    /*bottom:-100%;*/
+    top:0;
     z-index: 100;
     opacity: 0;
     transition: bottom .6s, opacity .4s;
@@ -1050,20 +1050,57 @@ img {
     text-decoration: none;
 }
 
+
+/****** brand story *****/
+.brand-story .header{
+    text-align:center;
+    color:#555;
+    padding:50px 0;
+}
+.brand-story .banner img{
+    height: 300px;
+    display: block;
+    margin:0 auto;
+}
+.brand-story .content .title{
+    color:#00b150;
+/*    font-style:italic;*/
+    line-height: 3;
+}
+.brand-story .content{
+    line-height: 1.5;
+    text-align: center;
+    color:#93d150;
+    /*font-weight: 600;*/
+}
+
+.brand-story .content p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.brand-story .content p span{
+    color:#ff0000;
+}
+
+.brand-story .content .focus{
+    color:#00b150;
+    font-size: 1.6em;
+}
+
 /***** footer ******/
 
 footer {
     margin-top: 80px;
     /*background: #2c3032;*/
     background: #444;
-    height: 100px;
+    height: 50px;
     color: #afafae;
     text-shadow: 1px 1px 1px #000;
 }
 
 footer .headline {
     width: 100%;
-    height: 30px;
+    height: 20px;
 }
 
 footer .row {
@@ -1085,6 +1122,7 @@ footer .col-md-4 {
     background: #f0f0f0;
     border-bottom: 1px solid #DDDDDD;
     height: 50px;
+    color:#0468a6;
 }
 
 .top-header .header-item {
@@ -1157,7 +1195,8 @@ footer .col-md-4 {
 .brands > li > a {
     /*background-color:#ebebeb;*/
     /*background-color:#00a14a;*/
-    background-color: #333;
+    /*background-color: #333;*/
+    background-color: #0468a6;
     text-align: center;
     color: #555555;
     display: inline-block;
@@ -1184,6 +1223,9 @@ footer .col-md-4 {
 .brands > li > a>.iconfont {
     font-size: 14px;
 }
+
+
+
 
 @font-face {
     font-family: "iconfont";
