@@ -4,7 +4,9 @@ var gulp = require('gulp'), //本地安装gulp所用到的地方
     concat = require('gulp-concat'),
     imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache'),
-    pngquant = require('imagemin-pngquant');
+    pngquant = require('imagemin-pngquant'),
+    browserSync = require('browser-sync').create(),
+    reload = browserSync.reload;
  
 //定义一个testLess任务（自定义任务名称）
 gulp.task('cssmin', function () {
@@ -56,7 +58,19 @@ gulp.task('imagemin', function () {
 gulp.task('fonts',function(){
 	gulp.src('fonts/*')
 		.pipe(gulp.dest('dist/fonts'));
-})
+});
+
+//服务器
+gulp.task('server',function(){
+    browserSync.init({
+        server:{
+            baseDir:"./"
+        }
+    });
+    //文件监听
+    gulp.watch("./css/*.css").on('change',reload);
+    gulp.watch("./*.html").on('change',reload);
+});
 
 
 //执行默认任务
