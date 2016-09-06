@@ -2094,7 +2094,7 @@ footer li {
 
 footer .logo-area {
     display: inline-block;
-    width: 200px;
+    width: 180px;
     vertical-align: top;
     margin-top: 20px;
 }
@@ -2112,7 +2112,7 @@ footer .logo {
 }
 
 footer ul {
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     /*margin-top: 40px;*/
 }
 
@@ -2120,13 +2120,13 @@ footer li {
     text-align: center;
     font-size: 12px;
     line-height: 2.5;
-    margin-right: 15px;
+    margin-right: 12px;
     margin-top: 40px;
 }
 
-footer li:first-child {
+/*footer li:first-child {
     margin-left: 40px;
-}
+}*/
 
 footer li:last-child:after {
     display: table;
@@ -2144,7 +2144,7 @@ footer .splitter {
     border-right: 1px solid #e2e2e2;
     height: 170px;
     margin-top: 20px;
-    margin-left: 30px;
+   /* margin-left: 30px;*/
 }
 
 footer .more-service {
