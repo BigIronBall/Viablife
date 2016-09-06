@@ -207,6 +207,10 @@ body {
     width:870px;
 }
 
+.menu .list.short{
+    width:522px;
+}
+
 .menu .list li {
     position: relative;
     left: 10%;
@@ -539,6 +543,14 @@ body {
 .carousel {
     height: 700px;
     width: 100%;
+}
+
+.banner-index{
+    height: 1400px;
+}
+
+.banner-index li{
+    height: 1400px;
 }
 
 .carousel ul{
