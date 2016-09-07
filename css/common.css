@@ -545,14 +545,6 @@ body {
     width: 100%;
 }
 
-.banner-index{
-    height: 1400px;
-}
-
-.banner-index li{
-    height: 1400px;
-}
-
 .carousel ul{
     margin-bottom: 0;
 }
@@ -1818,10 +1810,11 @@ img {
 .right-content .row .content a{
     color:#cbcbcb;
     position: absolute;
-    bottom: 11px;
+    bottom: 2px;
     right: 0;
     z-index: 2;
     background-color: #fff;
+    height: 25px;
 }
 .right-content .row .content a:hover{
     text-decoration: none;
