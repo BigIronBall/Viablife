@@ -211,6 +211,10 @@ body {
     width:522px;
 }
 
+.menu .list.small{
+    width:348px;
+}
+
 .menu .list li {
     position: relative;
     left: 10%;
@@ -233,7 +237,7 @@ body {
 .menu .list li span.img {
     display: block;
     width: 174px;
-    height: 51px;
+    height: 70px;
 }
 
 .menu .list li p {
@@ -473,14 +477,22 @@ body {
 .banner{
     height: 700px;
 }
+.banner.narrow{
+    height: 500px;
+}
 .i-ban {
     position: relative;
-    /*top: -50px;*/
-    /*top: -10px;*/
     margin-bottom: -49px;
     height: 700px;
     overflow: hidden;
     max-width: 1920px;
+}
+
+.i-ban.narrow{
+    height: 500px;
+}
+.i-ban.narrow li{
+    height: 500px;
 }
 
 .i-ban.carousel{
@@ -495,6 +507,15 @@ body {
     height: 700px;
     display: none;
     float: left;
+}
+
+.i-ban li a{
+    display: block;
+    height: 700px;
+}
+
+.i-ban.narrow li a{
+    height: 500px;
 }
 
 .i-ban .arrow {
@@ -684,7 +705,7 @@ body {
 /***********  title *****************/
 
 .person-title {
-    height: 290px;
+    height: 230px;
     background-color: #f8f8f8;
     color: #6d6d6d;
     text-align: center;
@@ -692,7 +713,7 @@ body {
 }
 
 .person-title h1 {
-    padding-top: 65px;
+    padding-top: 35px;
     letter-spacing: 4px;
     /*line-height: 1.5;*/
 }
@@ -722,10 +743,13 @@ body {
     line-height: 34px;
     outline: none;
 }
-
+.person-reward {
+    display: none;
+}
 .person-reward .row{
     width:600px;
     margin:0 auto;
+
 }
 /********** col **********/
 
@@ -764,6 +788,9 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
 }
+/*.main-points .bg>a{
+    display: block;
+}*/
 
 .main-points h3 {
     font-size: 2.5rem;
@@ -843,6 +870,11 @@ body {
     margin-top: 30px;
 }
 
+.person-inc p{
+    font-size: 18px;
+    line-height: 2;
+}
+
 .person-inc-box img {
     margin-bottom: 30px;
     width: 49%;
@@ -870,7 +902,7 @@ img {
 .p-s {
     box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
     position: relative;
-    border: 1px solid #f6f6f6;
+    border: 1px solid #e5e5e5;
     overflow: hidden;
     transition: all 0.8s;
 }
@@ -995,7 +1027,7 @@ img {
 }
 
 .biological-products {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .products .img-right {
@@ -1079,6 +1111,10 @@ img {
 .biological-products .product-detail.right.sm{
     width: 390px;
     right: -374px;
+}
+.biological-products .product-detail.left.sm{
+    width: 390px;
+    left: -374px;
 }
 
 .biological-products .product-detail.left.big{
@@ -1354,6 +1390,14 @@ img {
    /* margin-bottom: 65px;*/
 }
 
+.video-content-title.narrow{
+    height: 140px;
+}
+
+.video-content-title.narrow h1{
+    line-height: 140px;
+}
+
 .video-content-title h1{
     letter-spacing: 4px;
     margin-top: 0;
@@ -1373,6 +1417,13 @@ img {
 .halogenation-content ul{
     font-size: 16pt;
     margin-left: 26px;
+}
+
+.halogenation-content.step1 p{
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .halogenation-content.step1 img{
@@ -1449,13 +1500,20 @@ img {
 }
 
 .company .header {
-    margin-bottom: 50px;
+  /*  margin-bottom: 50px;*/
     margin-left: 15px;
 }
 
-.company h1.title {
-    /*color:#0468a6;*/
+.company h1.title,
+.company h2.title {
     color: #337ab7;
+}
+
+.company .header p,
+.company .header li{
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
 }
 
 .company img {
@@ -1712,51 +1770,19 @@ img {
 }
 
 /***** content  *****/
-.left-menu{
-    width:200px;
-    display: inline-block;
-    font-size: 24px;
-    color:#22616e;
-    background-color: #ececec;
-    min-height: 1100px;
-    overflow-y:hidden;
-}
-
-.left-menu .parent,
-.left-menu .parent a
-{
-    background:#33b56f;
-    color:#fff;
-}
-
-.left-menu .active{
-    color:#36c0e5;
-}
-.left-menu>ul{
-    margin-top: 50px;
-}
-.left-menu>ul,.left-menu li{
-    list-style: none;
-
-}
-
-.left-menu a{
-    padding-left: 50px;
-    line-height: 2;
-}
-
-.left-menu a,
-.left-menu a:hover{
-    text-decoration: none;
-}
-
 .right-content{
-    display: inline-block;
-    width: 930px;
-    padding-left: 20px;
-    padding-right: 20px;
-    vertical-align: top;
+    width: 900px;
+    margin:0 auto;
     line-height: 2;
+}
+.right-content .qq-box {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.right-content .qq-box a{
+    margin-right: 15px;
 }
 .right-content .img-title-box{
     position: relative;
@@ -1784,7 +1810,9 @@ img {
     text-indent: 28px;
 }
 .right-content .row{
-    margin:0;
+    margin:10px 0;
+    /*margin-top: 40px;
+    margin-bottom: 40px;*/
 }
 .right-content .row img{
     width:135px;
@@ -1907,6 +1935,10 @@ img {
     color: #333;
     position: relative;
     margin-top: 0;
+}
+
+.gray-box .title .hr{
+    float:right;font-size: 14px;margin-right:30px;
 }
 
 .job-list-head {
@@ -2054,12 +2086,28 @@ footer {
     height: 470px;
     min-width: 1190px !important;
     overflow: hidden;
+    position: relative;
+}
+
+footer .backtop {
+    right: 20px;
+    top: 100px;
+    width: 42px;
+    height: 42px;
+    background: url("../images/backtop.png") no-repeat;
+    cursor: pointer;
+    transition: background 0.5s;
+    position: absolute;
+}
+footer .backtop:hover{
+    background-position: 0 -42px;
 }
 
 footer .phone {
     font-size: 24px;
     color: #333;
     font-family: calibri, Arial;
+    font-weight: bold;
 }
 
 footer .headline {
@@ -2090,22 +2138,22 @@ footer .logo-area {
     width: 180px;
     vertical-align: top;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 footer .qrcode-area {
     display: inline-block;
-    width: 430px;
+    width: 500px;
 }
 
 footer .logo {
-    height: 80px;
-    /*   margin-top: 20px;*/
-    margin-bottom: 20px;
+    height: 66px;
+    margin-top: 20px;
     margin-left: -10px;
 }
 
 footer ul {
-    /*margin-left: 20px;*/
+    margin-left: 50px;
     /*margin-top: 40px;*/
 }
 
@@ -2213,8 +2261,10 @@ footer .copy-right {
 footer .address {
     width: 450px;
     height: 222px;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
 }
 
 footer .footer-box {
