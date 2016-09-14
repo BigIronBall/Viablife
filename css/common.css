@@ -1553,6 +1553,46 @@ img {
 }
 
 /******** health *******/
+.placeholder{
+    height: 400px;
+}
+.placeholder h1{
+    text-align: center;
+    line-height: 300px;
+    margin-top:0;
+    /*text-shadow: 0 0 1px #333;*/
+}
+.pink{
+    height: 400px;
+    background-color:#efafa3;
+}
+.pink h1{
+    text-align: center;
+    color:#fff;
+    line-height: 300px;
+    text-shadow: 0 0 1px #fff;
+    margin-top:0;
+}
+.container.width{
+    width:1400px !important;
+    text-align: center;
+    height: 500px;
+}
+.cercel{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+    display: inline-block;
+    background:#f9eeee;
+    margin-right: 40px;
+    margin-top: 150px;
+    color:#fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 50px;
+    line-height: 2;
+    text-align: center;
+}
 
 .health-content h1.title {
     color: #4b6e2d;
