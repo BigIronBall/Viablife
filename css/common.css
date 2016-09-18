@@ -342,8 +342,18 @@ body {
     color: #fff;
 }
 
+.site-header .container{
+    position: relative;
+}
+
 .site-header-nav {
-    margin-right: 60px;
+    margin-right: 110px;
+}
+
+.site-header .container .btn{
+    position: absolute;
+    top: 5px;
+    right: 0;
 }
 
 .site-header-nav>ul>li:hover ul {
@@ -1273,7 +1283,7 @@ img {
 
 #site-header-brand {
     position: absolute;
-    top: 2px;
+    top: -9px;
 }
 
 
@@ -2425,7 +2435,7 @@ footer .splitter {
     border-right: 1px solid #e2e2e2;
     height: 170px;
     margin-top: 20px;
-    /* margin-left: 30px;*/
+     margin-left: 13px;
 }
 
 footer .more-service {
@@ -2505,6 +2515,10 @@ footer .address {
     display: inline-block;
     vertical-align: top;
     margin-top: 22px;
+}
+
+footer .address p{
+    margin-bottom: 2px;
 }
 
 footer .footer-box {
