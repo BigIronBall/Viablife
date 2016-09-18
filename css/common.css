@@ -1590,7 +1590,7 @@ img {
 /******** health *******/
 
 .placeholder {
-    height: 400px;
+    height: 500px;
 }
 
 .placeholder h1 {
@@ -1601,7 +1601,7 @@ img {
 }
 
 .pink {
-    height: 400px;
+    height: 500px;
     background-color: #efafa3;
 }
 
@@ -1686,9 +1686,9 @@ img {
 }
 
 .hxy {
-    height: 400px;
+    height: 500px;
     background: url(../images/hxy.jpg) no-repeat;
-    background-size: auto 400px;
+    background-size: auto 500px;
     opacity: 0;
     transition: all 4s;
 }
@@ -1717,25 +1717,25 @@ img {
 }
 
 .xs {
-    height: 400px;
+    height: 500px;
     background: url(../images/xs.jpg) no-repeat;
-    background-size: auto 400px;
+    background-size: auto 500px;
     opacity: 0;
     transition: all 4s;
 }
 
 .hxy h1,
 .xs h1 {
-    margin-left: 200px;
-    margin-top: 40px;
+    margin-left: 450px;
+    margin-top: 80px;
     font-size: 44px;
     color: #666;
 }
 
 .yy {
-    height: 400px;
+    height: 500px;
     background: url(../images/yy3.jpg) no-repeat;
-    background-size: auto 400px;
+    background-size: auto 500px;
     background-position: 850px 0;
     opacity: 0;
     transition: all 4s;
@@ -1744,7 +1744,7 @@ img {
 .yy h1 {
     /*margin-left: 200px;*/
     margin-left: -350px;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 44px;
     color: #fff;
 }
