@@ -821,6 +821,8 @@ body {
 
 .main-points p {
     font-size: 1.5rem;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
 
 
