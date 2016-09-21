@@ -1679,10 +1679,17 @@ img {
     background-color: #60c0f3;
     background: url(../images/luhua.jpg) no-repeat center center;
 }
+.luhua .bg{
+   background: rgba(96, 192, 243, 0.7); 
+}
 
 .guaguo {
     background-color: #00aec3;
     background: url(../images/guaguo.jpg) no-repeat center center;
+}
+
+.guaguo .bg{
+    background: rgba(0, 174, 195, 0.7); 
 }
 
 .yangyan {
@@ -1690,9 +1697,17 @@ img {
     background: url(../images/yangyan.jpg) no-repeat center center;
 }
 
+.yangyan .bg{
+    background: rgba(99, 162, 194, 0.7); 
+}
+
 .no-pre {
     background-color: #6ac335;
     background: url(../images/nopre.jpg) no-repeat center center;
+}
+
+.no-pre .bg{
+    background: rgba(106, 195, 53, 0.7); 
 }
 
 .ysj {
@@ -1701,35 +1716,58 @@ img {
     background: url(../images/ysj.jpg) no-repeat center center;
 }
 
+.ysj .bg{
+    background: rgba(170, 219, 198, 0.7); 
+}
+
 .hxy {
     height: 500px;
-    background: url(../images/hxy.jpg) no-repeat;
+    background: url(../images/people2.png) no-repeat;
     background-size: auto 500px;
-    opacity: 0;
-    transition: all 4s;
+    /* opacity: 0;
+    transition: all 4s; */
+}
+.section-hp{
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 500px;
+}
+.section-hp.hp1{
+    background: url(../images/section/section-hp-1.jpg) no-repeat top center;
+}
+.section-hp.hp2{
+    background: url(../images/section/section-hp-2.jpg) no-repeat top center;
+}
+.section-hp.hp3{
+    background: url(../images/section/section-hp-3.jpg) no-repeat top center;
+}
+.section-hp.hp4{
+    background: url(../images/section/section-hp-4.jpg) no-repeat top center;
+}
+.section-hp.hp5{
+    background: url(../images/section/section-hp-5.jpg) no-repeat top center;
 }
 
 .health-show{
     opacity: 1 !important;
 }
 
-.hxy h1 {
-    color: #fff !important;
+.hxy h1,
+.yy h1,
+.wtj h1{
+    /* color: #fff !important; */
+    margin-left: 600px;
+    margin-top: 200px;
+    font-size: 42px;
+    color: #666;
 }
 
 .wtj {
-    position: relative;
-}
-
-.wtj>div {
-    position: absolute;
-    bottom: 320px;
-    right: -70px;
-}
-
-.wtj h1 {
-    /*color:#666;*/
-    font-size: 44px;
+    height: 500px;
+    background: url(../images/rengong4.png) no-repeat;
+    background-position: 300px 80px;
+    background-size: auto 300px;
 }
 
 .xs {
@@ -1740,7 +1778,6 @@ img {
     transition: all 4s;
 }
 
-.hxy h1,
 .xs h1 {
     margin-left: 450px;
     margin-top: 80px;
@@ -1750,19 +1787,15 @@ img {
 
 .yy {
     height: 500px;
-    background: url(../images/yy3.jpg) no-repeat;
+    background: url(../images/people3.png) no-repeat;
     background-size: auto 500px;
-    background-position: 850px 0;
-    opacity: 0;
-    transition: all 4s;
 }
 
-.yy h1 {
-    /*margin-left: 200px;*/
-    margin-left: -350px;
-    margin-top: 60px;
-    font-size: 44px;
-    color: #fff;
+.nl h1{
+    font-size: 74px;
+    color: #666;
+    margin-top: 190px;
+    margin-left: 10px;
 }
 
 .ysj .bg {
