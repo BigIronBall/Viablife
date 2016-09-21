@@ -2964,6 +2964,9 @@ footer .bdsharebuttonbox a:hover {
     .company-banner.culture .content {
         padding-top: 300px;
     }
+    .main-points .bg{
+        width:480px;
+    }
 }
 
 @media screen and (max-width: 1907px) {
