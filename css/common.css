@@ -47,7 +47,8 @@ body {
 }
 
 .site-header a:hover {
-    color: #4183c4;
+    /* color: #4183c4; */
+    color: #fff;
 }
 
 #site-header-brand,
@@ -575,7 +576,7 @@ body {
     display: inline-block;
     width: 14px;
     height: 14px;
-    /*background: url("../images/bg_btn01.png") no-repeat 0 0 transparent;*/
+    /*background: url("http://oduwposqw.bkt.clouddn.com/bg_btn01.png") no-repeat 0 0 transparent;*/
     margin: 0 5px;
     cursor: pointer;
     border-radius: 50%;
@@ -2460,7 +2461,7 @@ footer .backtop {
     top: 100px;
     width: 42px;
     height: 42px;
-    background: url("../images/backtop.png") no-repeat;
+    background: url("http://oduwposqw.bkt.clouddn.com/backtop.png") no-repeat;
     cursor: pointer;
     transition: background 0.5s;
     position: absolute;
@@ -2704,7 +2705,7 @@ footer .bdsharebuttonbox a {
     width: 19px !important;
     height: 19px !important;
     padding: 0 !important;
-    background: url("../images/bg_btn02.png") no-repeat 0 0 transparent;
+    background: url("http://oduwposqw.bkt.clouddn.com/bg_btn02.png") no-repeat 0 0 transparent;
     margin: 22px 0 0 7px !important;
     opacity: 0.35;
     display: inline-block;
