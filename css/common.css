@@ -231,7 +231,6 @@ body {
     position: relative;
     left: 10%;
     width: 174px;
-    background: url("../images/icons.png") no-repeat right center transparent;
     background-position: 81px 40px;
     font-size: 15px;
     line-height: 41px;
@@ -556,13 +555,13 @@ body {
 .i-ban .arrow.next {
     left: auto;
     right: 50px;
-    background: url("../images/next01.png") no-repeat right center transparent;
+    background: url("http://oduwposqw.bkt.clouddn.com/next01.png") no-repeat right center transparent;
 }
 
 .i-ban .arrow.prev {
     left: auto;
     right: 50px;
-    background: url("../images/prev01.png") no-repeat right center transparent;
+    background: url("http://oduwposqw.bkt.clouddn.com/prev01.png") no-repeat right center transparent;
 }
 
 .i-ban .btn {
@@ -598,26 +597,26 @@ body {
 }
 
 .leader {
-    background: url(../images/CHESS-PIECES_LEADERSHIP.jpg) no-repeat 70% 50% !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/CHESS-PIECES_LEADERSHIP.jpg) no-repeat 70% 50% !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
 }
 
 .team {
-    background: url(../images/Biotech.jpg) no-repeat 50% 20% !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/Biotech.jpg) no-repeat 50% 20% !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
     background-size: 100%;
 }
 
 .biotechnology {
-    background: url(../images/formular.jpg) no-repeat 50% 20%;
+    background: url(http://oduwposqw.bkt.clouddn.com/formular.jpg) no-repeat 50% 20%;
     background-size: 100%;
     height: 534px;
 }
 
 .health-banner {
-    background: url(../images/green-drink.jpg) no-repeat 50% 20%;
+    background: url(http://oduwposqw.bkt.clouddn.com/green-drink.jpg) no-repeat 50% 20%;
     background-size: 100%;
     height: 534px;
 }
@@ -660,27 +659,27 @@ body {
 }
 
 .bh {
-    background: url(../images/DNA.jpg) no-repeat 50% 20% !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/dna.jpg) no-repeat 50% 20% !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
     background-size: 100%;
 }
 
 .gbh {
-    background: url(../images/gbh.jpg) no-repeat 50% 20% !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/gbh.jpg) no-repeat 50% 20% !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
     background-size: 100%;
 }
 
 .socail-banner {
-    background: url(../images/social-banner.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/social-banner.jpg) no-repeat top center;
     /*margin-top: 88px;*/
     height: 337px;
 }
 
 .contact {
-    /*background: url(../images/formular.jpg) no-repeat bottom center;
+    /*background: url(http://oduwposqw.bkt.clouddn.com/formular.jpg) no-repeat bottom center;
     min-height: 640px;
     height: calc(100% - 88px);
     width:100%;*/
@@ -688,14 +687,14 @@ body {
 
 
 /*.brand-story{
-    background: url(../images/formular.jpg) no-repeat bottom center;
+    background: url(http://oduwposqw.bkt.clouddn.com/formular.jpg) no-repeat bottom center;
     
     width:100%;
     height: auto;
 }*/
 
 .company-banner {
-    background: url(../images/company.jpg) no-repeat bottom center !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/company.jpg) no-repeat bottom center !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
     background-size: 100% 100%;
@@ -704,8 +703,8 @@ body {
 
 .company-banner.culture {
     /* margin-top: 200px; */
-    /*background: url(../images/office.jpg) no-repeat center center !important;*/
-    background: url(../images/company/DSC_0025.jpg) no-repeat center center !important;
+    /*background: url(http://oduwposqw.bkt.clouddn.com/office.jpg) no-repeat center center !important;*/
+    background: url(http://oduwposqw.bkt.clouddn.com/images/company/DSC_0025.jpg) no-repeat center center !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 880px;
@@ -1261,12 +1260,12 @@ img {
 }
 
 .socail-img.img-left {
-    background: url(../images/social1.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/social1.jpg) no-repeat top center;
     background-size: 100%;
 }
 
 .socail-img.img-right {
-    background: url(../images/bio-tecnologia.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/bio-tecnologia.jpg) no-repeat top center;
     background-size: 100%;
     margin-left: 293px;
 }
@@ -1739,7 +1738,7 @@ img {
 
 .luhua {
     background-color: #60c0f3;
-    background: url(../images/luhua.jpg) no-repeat center center;
+    background: url(http://oduwposqw.bkt.clouddn.com/luhua.jpg) no-repeat center center;
 }
 
 .luhua .bg {
@@ -1748,7 +1747,7 @@ img {
 
 .guaguo {
     background-color: #00aec3;
-    background: url(../images/guaguo.jpg) no-repeat center center;
+    background: url(http://oduwposqw.bkt.clouddn.com/guaguo.jpg) no-repeat center center;
 }
 
 .guaguo .bg {
@@ -1757,7 +1756,7 @@ img {
 
 .yangyan {
     background-color: #63a2c2;
-    background: url(../images/yangyan.jpg) no-repeat center center;
+    background: url(http://oduwposqw.bkt.clouddn.com/yangyan.jpg) no-repeat center center;
 }
 
 .yangyan .bg {
@@ -1766,7 +1765,7 @@ img {
 
 .no-pre {
     background-color: #6ac335;
-    background: url(../images/nopre.jpg) no-repeat center center;
+    background: url(http://oduwposqw.bkt.clouddn.com/nopre.jpg) no-repeat center center;
 }
 
 .no-pre .bg {
@@ -1776,7 +1775,7 @@ img {
 .ysj {
     vertical-align: top;
     background-color: #aadbc6;
-    background: url(../images/ysj.jpg) no-repeat center center;
+    background: url(http://oduwposqw.bkt.clouddn.com/ysj.jpg) no-repeat center center;
 }
 
 .ysj .bg {
@@ -1785,7 +1784,7 @@ img {
 
 .hxy {
     height: 500px;
-    background: url(../images/people2.png) no-repeat;
+    background: url(http://oduwposqw.bkt.clouddn.com/people2.png) no-repeat;
     background-size: auto 500px;
     /* opacity: 0;
     transition: all 4s; */
@@ -1799,23 +1798,23 @@ img {
 }
 
 .section-hp.hp1 {
-    background: url(../images/section/section-hp-1.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/section/section-hp-1.jpg) no-repeat top center;
 }
 
 .section-hp.hp2 {
-    background: url(../images/section/section-hp-2.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/section/section-hp-2.jpg) no-repeat top center;
 }
 
 .section-hp.hp3 {
-    background: url(../images/section/section-hp-3.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/section/section-hp-3.jpg) no-repeat top center;
 }
 
 .section-hp.hp4 {
-    background: url(../images/section/section-hp-4.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/section/section-hp-4.jpg) no-repeat top center;
 }
 
 .section-hp.hp5 {
-    background: url(../images/section/section-hp-5.jpg) no-repeat top center;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/section/section-hp-5.jpg) no-repeat top center;
 }
 
 .health-show {
@@ -1835,14 +1834,14 @@ img {
 
 .wtj {
     height: 500px;
-    background: url(../images/rengong4.png) no-repeat;
+    background: url(http://oduwposqw.bkt.clouddn.com/rengong4.png) no-repeat;
     background-position: 300px 80px;
     background-size: auto 300px;
 }
 
 .xs {
     height: 500px;
-    background: url(../images/xs.jpg) no-repeat;
+    background: url(http://oduwposqw.bkt.clouddn.com/xs.jpg) no-repeat;
     background-size: auto 500px;
     opacity: 0;
     transition: all 4s;
@@ -1857,7 +1856,7 @@ img {
 
 .yy {
     height: 500px;
-    background: url(../images/people3.png) no-repeat;
+    background: url(http://oduwposqw.bkt.clouddn.com/people3.png) no-repeat;
     background-size: auto 500px;
 }
 
@@ -2845,12 +2844,12 @@ footer .bdsharebuttonbox a:hover {
 
 @font-face {
     font-family: "iconfont";
-    src: url('../fonts/iconfont.eot?t=1472177939');
+    src: url('http://oduwposqw.bkt.clouddn.com/iconfont.eot?t=1472177939');
     /* IE9*/
-    src: url('../fonts/iconfont.eot?t=1472177939#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/iconfont.woff?t=1472177939') format('woff'), /* chrome, firefox */
-    url('../fonts/iconfont.ttf?t=1472177939') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../fonts/iconfont.svg?t=1472177939#iconfont') format('svg');
+    src: url('http://oduwposqw.bkt.clouddn.com/iconfont.eot?t=1472177939#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('http://oduwposqw.bkt.clouddn.com/iconfont.woff?t=1472177939') format('woff'), /* chrome, firefox */
+    url('http://oduwposqw.bkt.clouddn.com/iconfont.ttf?t=1472177939') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('http://oduwposqw.bkt.clouddn.com/iconfont.svg?t=1472177939#iconfont') format('svg');
     /* iOS 4.1- */
 }
 
@@ -2944,7 +2943,7 @@ footer .bdsharebuttonbox a:hover {
         margin-top: 20px;
     }
     .health-banner {
-        background: url(../images/green-drink.jpg) no-repeat top center;
+        background: url(http://oduwposqw.bkt.clouddn.com/green-drink.jpg) no-repeat top center;
         background-size: auto 100%;
         height: 500px;
     }

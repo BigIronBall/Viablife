@@ -12,7 +12,7 @@ var gulp = require('gulp'), //本地安装gulp所用到的地方
 gulp.task('cssmin', function () {
     gulp.src('css/*.css') //该任务针对的文件
     	.pipe(cssmin({
-    		keepBreaks: true,
+    		keepBreaks: false,
     		keepSpecialComments: '*'//保留浏览器前缀
     	}))
         .pipe(gulp.dest('temp/css')); //将会在src/css下生成index.css
