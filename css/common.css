@@ -99,7 +99,7 @@ body {
     transition: all 0.5s ease; */
 }
 
-.logo-ad {
+.logo-handwrite {
     /* -webkit-transform: rotate(6deg);
     -moz-transform: rotate(6deg);
     -ms-transform: rotate(6deg);
@@ -421,20 +421,17 @@ body {
     color: #fff;
     font-size: 20px;
     width: 400px;
-    /*padding:7px 0 8px 0;*/
     padding: 10px 0 10px 0;
 }
 
 .search-box .glyphicon-remove {
     font-size: 20px;
     top: 3px;
-    /*left: 266px;*/
     right: -10px;
     cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
-    /* WebKit browsers */
     color: #ddd;
 }
 
@@ -489,12 +486,6 @@ body {
     }
 }
 
-
-/*.jumbotron .container{
-    text-shadow: 5px 5px 5px #000;
-}*/
-
-
 /******* banner ******/
 
 .banner {
@@ -504,6 +495,7 @@ body {
 .banner.narrow {
     height: 500px;
 }
+
 
 .i-ban {
     position: relative;
@@ -516,6 +508,14 @@ body {
 
 .i-ban.narrow {
     height: 500px;
+}
+
+.i-ban.border{
+    height: 530px;
+}
+
+.i-ban.border li{
+    height: 530px;
 }
 
 .i-ban.narrow li {
@@ -576,7 +576,6 @@ body {
     display: inline-block;
     width: 14px;
     height: 14px;
-    /*background: url("http://oduwposqw.bkt.clouddn.com/bg_btn01.png") no-repeat 0 0 transparent;*/
     margin: 0 5px;
     cursor: pointer;
     border-radius: 50%;
@@ -584,7 +583,6 @@ body {
 }
 
 .i-ban .btn span.cur {
-    /*background-position: 0 -10px;*/
     background: #33b56f;
 }
 
@@ -675,43 +673,25 @@ body {
 
 .socail-banner {
     background: url(http://oduwposqw.bkt.clouddn.com/social-banner.jpg) no-repeat top center;
-    /*margin-top: 88px;*/
     height: 337px;
 }
-
-.contact {
-    /*background: url(http://oduwposqw.bkt.clouddn.com/formular.jpg) no-repeat bottom center;
-    min-height: 640px;
-    height: calc(100% - 88px);
-    width:100%;*/
-}
-
-
-/*.brand-story{
-    background: url(http://oduwposqw.bkt.clouddn.com/formular.jpg) no-repeat bottom center;
-    
-    width:100%;
-    height: auto;
-}*/
 
 .company-banner {
     background: url(http://oduwposqw.bkt.clouddn.com/company.jpg) no-repeat bottom center !important;
     padding-top: 200px !important;
     padding-bottom: 200px !important;
     background-size: 100% 100%;
-    /*height: 500px;*/
 }
 
 .company-banner.culture {
-    /* margin-top: 200px; */
-    /*background: url(http://oduwposqw.bkt.clouddn.com/office.jpg) no-repeat center center !important;*/
-    background: url(http://oduwposqw.bkt.clouddn.com/images/company/DSC_0025.jpg) no-repeat center center !important;
+    background: url(http://oduwposqw.bkt.clouddn.com/images/company/DSC_0025.jpg) no-repeat !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    height: 880px;
+        background-size: 860px auto !important;
+    height: 500px;
     position: relative;
-    width: 1130px;
-    margin: 100px auto;
+    width: 860px;
+    margin: 40px auto;
 }
 
 .company-banner .cover {
@@ -719,8 +699,6 @@ body {
     height: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    /* position: absolute;
-    top: 0; */
     background-color: rgba(0, 0, 0, .4);
     transition: background-color .5s;
 }
@@ -839,7 +817,7 @@ body {
     white-space: nowrap;
     overflow-x: hidden;
     margin-top: -8px;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
 }
 
 
@@ -1580,6 +1558,8 @@ img {
 .halogenation-content.step5 img {
     border: 1px solid #ececec;
     width: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
 .blue-pigment-content {
@@ -1617,6 +1597,7 @@ img {
 .company h1.title,
 .company h2.title {
     color: #337ab7;
+    margin-left: 130px;
 }
 
 .company .header p,
@@ -1626,6 +1607,7 @@ img {
     text-align: justify;
     width: 854px;
     text-indent: 36px;
+    margin: 0 auto;
 }
 
 .company img {
@@ -2092,6 +2074,12 @@ img {
     margin-right: -4px;
 }
 
+.biology-content .product-left img{
+    display: block;
+    margin: 0 auto;
+}
+
+
 .biology-content .product-right {
     vertical-align: top;
     width: 520px;
@@ -2458,7 +2446,7 @@ footer {
 
 footer .backtop {
     right: 20px;
-    top: 100px;
+    top: 140px;
     width: 42px;
     height: 42px;
     background: url("http://oduwposqw.bkt.clouddn.com/backtop.png") no-repeat;
@@ -2484,7 +2472,6 @@ footer .headline {
 }
 
 footer .row {
-    /* text-align: center;*/
     margin-bottom: 10px;
 }
 
@@ -2511,7 +2498,7 @@ footer .logo-area {
 
 footer .qrcode-area {
     display: inline-block;
-    width: 500px;
+    width: 620px;
 }
 
 footer .logo {
@@ -2522,7 +2509,6 @@ footer .logo {
 
 footer ul {
     margin-left: 50px;
-    /*margin-top: 40px;*/
 }
 
 footer li {
@@ -2533,11 +2519,6 @@ footer li {
     margin-top: 40px;
 }
 
-
-/*footer li:first-child {
-    margin-left: 40px;
-}*/
-
 footer li:last-child:after {
     display: table;
     content: " ";
@@ -2545,7 +2526,7 @@ footer li:last-child:after {
 }
 
 footer li img {
-    width: 90px;
+    width: 100px;
 }
 
 footer .splitter {
@@ -2554,7 +2535,7 @@ footer .splitter {
     border-right: 1px solid #e2e2e2;
     height: 170px;
     margin-top: 20px;
-    margin-left: 13px;
+    margin-left: 52px;
 }
 
 footer .more-service {
@@ -2628,7 +2609,7 @@ footer .copy-right {
 }
 
 footer .address {
-    width: 450px;
+    width: 320px;
     height: 222px;
     /*padding-left: 30px;*/
     display: inline-block;
@@ -2657,7 +2638,7 @@ footer .cooperation span {
 
 footer .cooperation img {
     display: inline-block;
-    width: 150px;
+    margin-left: 13px;
 }
 
 footer .cooperation img:first-child {
@@ -2666,7 +2647,6 @@ footer .cooperation img:first-child {
 
 footer .bottom {
     height: 62px;
-    /*border-top: 1px solid #dcdcdc;*/
     line-height: 62px;
     font-size: 12px;
     position: relative;
@@ -2812,9 +2792,6 @@ footer .bdsharebuttonbox a:hover {
 }
 
 .brands > li > a {
-    /*background-color:#ebebeb;*/
-    /*background-color:#00a14a;*/
-    /*background-color: #333;*/
     background-color: #0468a6;
     text-align: center;
     color: #555555;
@@ -2920,7 +2897,6 @@ footer .bdsharebuttonbox a:hover {
         height: 300px;
         background-position: center center !important;
         background-size: 100% !important;
-
     }
     .company-banner.culture .content {
         width: 100%;
@@ -2964,8 +2940,8 @@ footer .bdsharebuttonbox a:hover {
     .company-banner.culture .content {
         padding-top: 300px;
     }
-    .main-points .bg{
-        width:480px;
+    .main-points .bg {
+        width: 480px;
     }
 }
 
