@@ -257,7 +257,20 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+/* .menu .list li:last-child:after{
+    display: table;
+    content: " ";
+    clear: both;
+} */
 
+.menu ul{
+    overflow: auto;
+    margin-bottom:  0 !important;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
 
 /** Post List **/
 
@@ -724,6 +737,7 @@ body {
 .person-title h1 {
     padding-top: 35px;
     letter-spacing: 4px;
+    margin-top: 0;
     /*line-height: 1.5;*/
 }
 
