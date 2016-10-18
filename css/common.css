@@ -945,6 +945,18 @@ div {
 .leading-body p {
     margin-right: 20px;
 }
+.leading-body ul{
+    padding-left: 1.4em;
+}
+.leading-body ul li{
+    /* line-height: 1.5; */
+    color: #a5a5a5;
+}
+
+.leading-body ul li span{
+    line-height: 2.3;
+    color: #4f4f4d;
+}
 
 .person-inc-box img {
     margin-bottom: 30px;
@@ -970,7 +982,33 @@ div {
 }
 
 .achievments .container {
-    padding: 40px 185px;
+    padding: 40px 185px 0 185px;
+}
+.achievments .feature li{
+    display: inline-block;
+    width: 220px;
+    height: 160px;
+    margin-bottom: 90px;
+
+}
+
+.achievments .feature li.middle{
+    padding-left: 66px;
+    padding-right: 66px;
+    width: 356px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.achievments .feature img{
+    width: 100%;
+}
+
+.achievments .feature li span{
+    display: block;
+    text-align: center;
+    color: #a0a0a0;
+    line-height: 3;
 }
 
 .achievments .video-container {}
@@ -1007,11 +1045,27 @@ div {
     border-left: 6px solid #95b63e;
     text-indent: 15px;
 }
+.achievments h3.nb,
+.achievments h4.nb{
+    border-left: 0;
+    color: #605c5c;
+    margin-bottom: 30px;
+/*     text-indent: 0; */
+}
+.achievments .achievment-content{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.achievments .achievment-content p{
+    font-size: 15px;
+    line-height: 1.8;
+}
 
 .achievments p {
     color: #838281;
     line-height: 1.5;
     text-indent: 28px;
+    text-align: justify;
 }
 
 .achievments .strong {
@@ -1020,6 +1074,10 @@ div {
 
 .achievments img {
     margin-top: 20px;
+}
+
+.achievments .col-md-4 img{
+    margin-top: 0;
 }
 
 .achievments .video {
@@ -1320,6 +1378,16 @@ img {
     zoom: 1;
 }
 
+.biological-products .product-detail .ask{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.biological-products .product-detail .ask.top{
+    top: 20px;
+}
+
 .biological-products .product-detail .ask a {
     display: block;
     float: right;
@@ -1392,18 +1460,36 @@ img {
 .biological-products .col-md-4:hover,
 .biological-products .col-md-6:hover {
     z-index: 1;
+
 }
 
 .biological-products .col-md-4:hover .product-detail,
 .biological-products .col-md-6:hover .product-detail {
-    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 4px 0 15px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: -2px 0 40px rgba(0, 0, 0, 0.4),
+     4px 4px 40px rgba(0, 0, 0, 0.4),
+    4px 4px 40px rgba(0, 0, 0, 0.4),
+     4px 4px 40px rgba(0, 0, 0, 0.4); */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     transform: rotateY(0);
     opacity: 1;
+    border-top: 1px solid #e5e5e5;
+    border-left: 0;
+}
+
+.biological-products .col-md-4:hover .p-m,
+.biological-products .col-md-6:hover .p-m,
+.biological-products .col-md-6:hover .p-b {
+    /* box-shadow: 4px 0 15px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.4); */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    border-right: 0;
 }
 
 .biological-products .col-md-4:hover .product-detail.left,
 .biological-products .col-md-6:hover .product-detail.left {
-    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.15);
+    /* box-shadow: -4px 0 15px rgba(0, 0, 0, 0.15); */
+    box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.4);
     transform: rotateY(0);
     opacity: 1;
 }
@@ -1872,6 +1958,18 @@ img {
     margin: 0 auto;
 }
 
+.company .col-md-3{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+.company .col-md-3:first-child{
+    padding-left: 0;
+}
+/* .company .col-md-3:last-child{
+    padding-right: 0;
+}
+ */
 
 /******** health *******/
 
